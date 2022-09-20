@@ -13,10 +13,13 @@
     </head>
     <body>
         <nav class="relative container mx-auto p-6">
+            <!-- Flex Container -->
             <div class="flex items-center justify-between">
+                <!-- Logo -->
                 <div class="pt-2">
                     <img src="img/logo.svg" alt="logo" />
                 </div>
+                <!-- Menu Items -->
                 <div
                     class="hidden space-x-6 items-center font-semibold md:flex"
                 >
@@ -28,11 +31,35 @@
                         >Comunidade</a
                     >
                 </div>
+                <!-- Button -->
                 <a
                     href=""
                     class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight md:block"
                     >Inicie</a
                 >
+                <!-- Hamburguer Icon -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <img
+                        src="img/icon-hamburger.svg"
+                        alt="menu-btn"
+                        id="hamburger-icon"
+                        />
+                        <img
+                        src="img/icon-close.svg"
+                        alt="menu-btn"
+                        id="closed-icon"
+                    />
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div id="menu" class="absolute flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 shadow-md">
+                    <a href="#" class="hover:text-darkGrayishBlue">Preços</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Produtos</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Sobre</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Carreiras</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Comunidade</a>
+                </div>
             </div>
         </nav>
         <section id="hero">
@@ -354,5 +381,6 @@
             <p class="text-sm text-center py-4">
                 © 2022 Manage. Todos os direitos reservados.
             </p>
-    </body>
+    <script src="script.js"></script>
+        </body>
 </html>
