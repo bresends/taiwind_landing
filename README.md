@@ -1,5 +1,5 @@
 <h1 align="center">
-  🏗️Tailwind Landing Page
+  🍃Tailwind Landing Page
     <br>
 </h1>
 
