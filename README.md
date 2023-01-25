@@ -58,6 +58,6 @@ Esse projeto está sob a **_MIT license_**. Veja [LICENÇA](https://github.com/b
 ---
 
 <p align="center">
-  <span>Feito por Bruno Resende @Devisio </span>
+  <span>Feito por Bruno Resende @Devisio</span>
   <a href="https://www.linkedin.com/in/bresends/"> :wave: Entre em contato!</a> 
 </p>
